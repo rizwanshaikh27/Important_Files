@@ -1,0 +1,12 @@
+#!bin/bash
+sudo yum update -y 
+sudo yum install git -y
+sudo yum install -y gcc-c++ make 
+sudo curl -sl https://rpm.nodesource.com/setup_16.x |sudo -E bash
+sudo yum install -y nodejs
+sudo npm install node-modules
+sudo npm install react-bootstrap bootstrap@5.2.0-beta1
+sudo git clone https://github.com/rizwanshaikh27/demo.git
+
+sudo npm install -g npm@8.3.2
+npm install -g npm@latest
